@@ -1,0 +1,32 @@
+/* Base styles */
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    color: black;
+}
+body {
+    background-color: rgb(250, 230, 205);
+}
+.box {
+    border: 3px solid black;
+}
+/* Responsive styles */
+/* Destop: screen width >= 992px */
+@media (min-width: 992px ) {
+    .col-lg-4 
+    .col-lg-4 {width: 33.33%;}
+}
+/* Tablet: screen width betweem 991px and 768px */
+@media (max-width: 991px) and (min-width: 768px) {
+    .col-md-6, .col-md-12
+    .col-md-6 {width: 50%;}
+    .col-md-12 {width: 100%;}
+}
+
+/* Mobile: screen width <= 767 px */
+@media (max-width: 767px) {
+    .col-sm-12
+    .col-md-12 {width: 100%;}
+} 
