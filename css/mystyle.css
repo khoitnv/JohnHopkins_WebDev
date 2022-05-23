@@ -12,7 +12,8 @@ body {
     background-color: rgb(250, 230, 205);
 }
 .box {
-    border: 3px solid black;
+    border: 1px solid black;
+    background-color: rgb(163, 163, 163);
     padding: 10% 2% 0 2%;
     position: relative;
     float: left;
@@ -28,7 +29,7 @@ section {
     width: 120px;
     right: 0;
     top: 0;
-    border: 3px solid black;
+    border: 1px solid black;
     border-top: 0;
     border-right: 0;
     text-align: center;
